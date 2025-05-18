@@ -7,9 +7,9 @@ def add_numbers(num1, num2, num3):
 def main():
     # Ask for user input
     try:
-        number1 = float(input("Enter the first number: "))
-        number2 = float(input("Enter the second number: "))
-        number3 = float(input("Enter the third number: ")) 
+        number1 = int(input("Enter the first number: "))
+        number2 = int(input("Enter the second number: "))
+        number3 = int(input("Enter the third number: ")) 
         # Add the numbers
         result = add_numbers(number1, number2, number3)
         
